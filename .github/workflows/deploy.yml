@@ -1,6 +1,9 @@
 name: OctoBay API - Test, Build, Push, Deploy
 
 on:
+
+  workflow_dispatch:
+
   push:
     branches: [ development ]
   pull_request:
